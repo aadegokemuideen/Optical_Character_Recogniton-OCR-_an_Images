@@ -1,22 +1,40 @@
-# Optical_Character_Recogniton-OCR-_an_Images
-The project focuses on creating Machine Learning Models for Image OCR
+## Optical Character Recognition (OCR) on Images
 
-To develop a machine learning model for Optical Character Recognition (OCR) on an image, the user will need to provide the image or images to the model. The model will extract the text from the image(s) and display it on the terminal. Software or machine learning developers can utilize the model by building API core/logic around it.
+Welcome to the Optical Character Recognition (OCR) on Images repository! This project focuses on developing machine learning models for extracting text from images using various techniques and APIs.
+Overview
 
-There are three projects related to OCR:
+The goal of this project is to create robust machine-learning models that can accurately perform Optical Character Recognition (OCR) on images. Users can input images, and the models will extract text from these images, displaying the results on the terminal. Developers can integrate these models into their software or build API logic around them.
 
-    Project One: Utilizing Pytesseract
-    In this project, py-tesseract is used for OCR to extract text from images.
+### Projects
 
-    Project Two: Employing Amazon Recognition API
-    For this project, the Amazon Recognition API is utilized for OCR. The following details are required to use the API:
+**Project One: Utilizing Pytesseract**
 
-    ACCESS_KEY = "YOUR_ACCESS_KEY"
-    SECRET_KEY = "YOUR_SECRET_KEY"
-    REGION = "YOUR_AWS_REGION"
-    These details can be obtained from a free AWS account.
+This project uses Pytesseract for OCR to extract text from images. Pytesseract is a Python wrapper for Google's Tesseract-OCR Engine.
 
-    Project Three: Developing OCR using RESNET and other Machine Learning techniques
-    Currently, the third project is being developed, which involves using RESNET and other machine learning algorithms for OCR. The plan is to utilize transfer learning and fine-tuning in this project.
+**Project Two: Employing Amazon Recognition API**
 
-Please note that while the first project uses Tesseract, the second project relies on the Amazon Recognition API, and the third project involves the development of OCR using RESNET and other machine-learning techniques.
+In this project, the Amazon Recognition API is utilized for OCR. To use this API, you need to provide:
+
+makefile
+
+- ACCESS_KEY = "YOUR_ACCESS_KEY"
+- SECRET_KEY = "YOUR_SECRET_KEY"
+- REGION = "YOUR_AWS_REGION"
+
+These details can be obtained from a free AWS account.
+
+**Project Three: Developing OCR using RESNET and other Machine Learning techniques**
+
+This ongoing project involves developing OCR capabilities using RESNET and other machine learning algorithms. The approach includes transfer learning and fine-tuning to enhance OCR performance.
+
+Please note the specific technologies used in each project: ``Tesseract for the first project``, ``Amazon Recognition API for the second project``, and ``RESNET with machine learning techniques for the third project``.
+
+### Contact
+
+For questions or collaboration opportunities related to this project, feel free to reach out:
+
+- Email: aadegokemuideen@yahoo.com
+- LinkedIn: [LinkedIn-Profile](https://www.linkedin.com/in/adegokemuideen)
+- GitHub: [Github-Profile](https://github.com/aadegokemuideen)
+
+Thank you for your interest in Optical Character Recognition (OCR) on Images!
